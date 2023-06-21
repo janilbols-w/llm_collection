@@ -16,14 +16,16 @@ Evaluation is performed against 4 popular benchmarks:
 - [MMLU (5-shot)](https://arxiv.org/abs/2009.03300) - a test to measure a text model’s multitask accuracy. The test covers 57 tasks including elementary mathematics, US history, computer science, law, and more.
 - [TruthfulQA (0-shot)](https://arxiv.org/abs/2109.07958) - a test to measure a model’s propensity to reproduce falsehoods commonly found online.
 
+![huggingface_open_llm_leaderboard_screenshot](./figure/huggingface_open_llm_leaderboard_screenshot_0001.png)
+
 # 3 Top Models from Huggingface
 
-| name	| tag |
-| --- | ---- |
-| falcon	| 40b-instuct |
-| guanaco	| 65b-merged|
-| llama	| 65b|
-| vicuna	| 65b|
+| name	| tag | family root| src |
+| --- | ---- | --- |  ---- |
+| falcon	| 40b-instuct | falcon | https://falconllm.tii.ae/ |
+| guanaco	| 65b-merged| unknown | |
+| llama	| 65b| llama | |
+| vicuna	| 65b| llama | |
 
 
 # 4 Terms
