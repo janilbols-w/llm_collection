@@ -7,6 +7,11 @@ How well is the model perform? How large should them be to keep functionable? We
 
 This page contain benchmarks to measure how well LLMs are.
 
+
+Public Benchmarks:
+- [huggingface leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+- [chatbot arena - by lmsys](https://chat.lmsys.org/?arena)
+
 # 2 Get Started
 Quickstart with [huggingface leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard), 
 Evaluation is performed against 4 popular benchmarks:
@@ -18,15 +23,15 @@ Evaluation is performed against 4 popular benchmarks:
 
 ![huggingface_open_llm_leaderboard_screenshot](./figure/huggingface_open_llm_leaderboard_screenshot_0001.png)
 
-# 3 Top Models from Huggingface
+# 3 Top Models
 
 | name	| tag | family root| src |
 | --- | ---- | --- |  ---- |
 | falcon	| 40b-instuct | falcon | https://falconllm.tii.ae/ |
 | guanaco	| 65b-merged| unknown | |
 | llama	| 65b| llama | |
-| vicuna	| 65b| llama | |
-
+| vicuna	| 65b| llama | https://lmsys.org/blog/2023-03-30-vicuna/ |
+| chatglm | 6B | glm | https://chatglm.cn/blog |
 
 # 4 Terms
 
