@@ -9,9 +9,15 @@ This page contain benchmarks to measure how well LLMs are.
 
 
 Public Benchmarks:
-- [huggingface leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
-- [chatbot arena - by lmsys](https://chat.lmsys.org/?arena)
-
+| name | runnable | language | notes |
+| ---- | ---- | ---- | ---- |
+| [huggingface leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) | NO | en | opensource projects |
+| [chatbot arena(lmsys.org)](https://chat.lmsys.org/?arena) | NO (simple trials available) | en | by vincuno team, using GPT-4 judgement|
+| [AI2 Reasoning Challenge](https://arxiv.org/abs/1803.05457) | TODO | en | |
+| [HellaSwag (10-shot)](https://arxiv.org/abs/1905.07830) | TODO | en | |
+| [MMLU (5-shot)](https://arxiv.org/abs/2009.03300) | TODO | en | **widely used benchmark** |
+| [TruthfulQA (0-shot)](https://arxiv.org/abs/2109.07958) | TODO | en |  |
+| [C-Eval](https://arxiv.org/pdf/2305.08322v1.pdf) | TODO | zh | |
 # 2 Get Started
 Quickstart with [huggingface leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard), 
 Evaluation is performed against 4 popular benchmarks:
